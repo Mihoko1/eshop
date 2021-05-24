@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tickets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tickets.xsd">
+  <ticket>
+    <id>1</id>
+    <dateopen>2021-01-01T09:50:10</dateopen>
+    <category>Returns</category>
+    <messages>
+      <message userid="2" posted="2021-01-01T09:50:21"> I received a camera today, but It was broken. I want to return it.</message>
+      <message userid="3" posted="2021-01-01T09:52:40">We can exchange another one. Would you want us to send a new one?</message>
+      <message userid="2" posted="2021-01-01T09:53:23">No thank you.</message>
+      <message userid="3" posted="2021-01-01T09:52:40">You are welcome.</message>
+      <message userid="2" posted="2021-03-25T02:16:07">Bye</message>
+    </messages>
+    <status>Close</status>
+    <userid>2</userid>
+    <staffid>3</staffid>
+  </ticket>
+  <ticket>
+    <id>2</id>
+    <dateopen>2021-01-02T15:30:21</dateopen>
+    <category>General</category>
+    <messages>
+      <message userid="5" posted="2021-01-02T15:31:10"> forgot my password and cannot log in.</message>
+      <message userid="4" posted="2021-01-02T15:33:19">May I confirm your email address please?</message>
+      <message userid="5" posted="2021-01-02T15:34:21">My email address is phillip@customer.com</message>
+    </messages>
+    <status>Close</status>
+    <userid>5</userid>
+    <staffid>4</staffid>
+  </ticket>
+  <ticket>
+    <id>3</id>
+    <dateopen>2021-01-03T11:05:01</dateopen>
+    <category>Shipping</category>
+    <messages>
+      <message userid="6" posted="2021-01-03T11:10:30">My order has not arrived yet</message>
+      <message userid="3" posted="2021-01-03T11:12:25">Can I confirm your order number please?</message>
+    </messages>
+    <status>Open</status>
+    <userid>6</userid>
+    <staffid>3</staffid>
+  </ticket>
+  <ticket>
+    <id>4</id>
+    <dateopen>2021-03-28T18:45:48</dateopen>
+    <category>others</category>
+    <messages>
+      <message userid="2" posted="2021-03-28T18:45:48">good morning</message>
+    </messages>
+    <status>Close</status>
+    <userid>2</userid>
+    <staffid>1</staffid>
+  </ticket>
+  <ticket>
+    <id>5</id>
+    <dateopen>2021-03-28T19:09:13</dateopen>
+    <category>others</category>
+    <messages>
+      <message userid="2" posted="2021-03-28T19:09:13">good morning</message>
+      <message userid="1" posted="2021-04-01T01:18:47">What can I help you?</message>
+    </messages>
+    <status>Close</status>
+    <userid>2</userid>
+    <staffid>1</staffid>
+  </ticket>
+  <ticket>
+    <id>6</id>
+    <dateopen>2021-04-03T00:05:28</dateopen>
+    <category>shipping</category>
+    <messages>
+      <message userid="5" posted="2021-04-03T00:05:28">My order has not arrived yet</message>
+      <message userid="4" posted="2021-04-03T00:06:58">Can I have your order number please?</message>
+    </messages>
+    <status>Close</status>
+    <userid>5</userid>
+    <staffid>4</staffid>
+  </ticket>
+  <ticket>
+    <id>7</id>
+    <dateopen>2021-04-03T00:06:03</dateopen>
+    <category>return</category>
+    <messages>
+      <message userid="5" posted="2021-04-03T00:06:03">hello</message>
+    </messages>
+    <status>Open</status>
+    <userid>5</userid>
+    <staffid>1</staffid>
+  </ticket>
+  <ticket>
+    <id>8</id>
+    <dateopen>2021-04-03T00:16:45</dateopen>
+    <category>others</category>
+    <messages>
+      <message userid="2" posted="2021-04-03T00:16:45">How to reset password?</message>
+      <message userid="2" posted="2021-04-03T00:17:37">Hello</message>
+    </messages>
+    <status>Open</status>
+    <userid>2</userid>
+    <staffid>99999999</staffid>
+  </ticket>
+  <ticket>
+    <id>9</id>
+    <dateopen>2021-04-03T00:42:23</dateopen>
+    <category>return</category>
+    <messages>
+      <message userid="6" posted="2021-04-03T00:42:23">I want to return my order</message>
+    </messages>
+    <status>Open</status>
+    <userid>6</userid>
+    <staffid>99999999</staffid>
+  </ticket>
+</tickets>

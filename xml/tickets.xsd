@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="tickets">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ticket" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType> 
+            <xs:sequence>
+              <xs:element name="id" type="xs:positiveInteger" />
+              <xs:element name="dateopen" type="xs:dateTime" />
+              <xs:element name="category" type="xs:string" />
+              <xs:element name="messages" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="message" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:string">
+                                        <xs:attribute name="userid" type="xs:positiveInteger" use="required" />
+                                        <xs:attribute name="posted" type="xs:dateTime" use="required" />
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="status" type="ticketstatus" />
+              <xs:element name="userid" type="xs:positiveInteger" />
+              <xs:element name="staffid" type="xs:positiveInteger" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="ticketstatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Open"/>
+      <xs:enumeration value="Close"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

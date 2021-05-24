@@ -1,0 +1,25 @@
+* Admin 
+
+Username: John1
+Password: john12345
+
+* Support Staff 
+
+Username: Karol123
+Password: karol12345
+
+Username: Herbertl235
+Password: Herbertl12345
+
+
+* Customer
+
+Username: Mary123
+Password: Mary12345
+
+Username: Phillip334
+Password: Phillip889
+
+Username: Alanna887
+Password: AlannaK8765
+
