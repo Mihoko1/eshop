@@ -3,7 +3,7 @@
 
     session_start();
 
-    $categories = ['==Please Select==' =>'select', 'General' => 'general', 'Shippint' => 'shipping', 'Return' => 'return', 'Others' => 'others'];
+    $categories = ['==Please Select==' =>'select', 'General' => 'general', 'Shipping' => 'shipping', 'Return' => 'return', 'Others' => 'others'];
 
 
     $rows = '';
